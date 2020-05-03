@@ -8,12 +8,88 @@
 		/>
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="stylesheet" href="/build/tailwind.css" />
 		<link
 			href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="/build/tailwind.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+		/>
 		<title>Invision Form wireframe to Tailwindcss</title>
 	</head>
-	<body class="antialiased"></body>
+	<body class="antialiased bg-gray-200">
+		<!-- <i
+			class="fas fa-bars visible md:invisible mr-10 md:mr-0 text-gray-800 cursor-pointer"
+    ></i>
+     -->
+		<header class="container mx-auto lg:max-w-screen-lg">
+			<nav
+				class="flex items-center justify-between lg:justify-center flex-wrap p-6"
+			>
+				<div class="flex items-center flex-shrink-0 mr-6 lg:mr-auto">
+					<span class="font-display font-bold text-gray-900 uppercase text-2xl"
+						>Form</span
+					>
+				</div>
+				<div class="block lg:hidden">
+					<button class="">
+						<i class="fas fa-bars md:mr-0 text-gray-900 cursor-pointer"></i>
+					</button>
+				</div>
+				<div
+					class="w-full block lg:flex lg:justify-between lg:items-center lg:w-auto"
+				>
+					<div
+						class="text-sm text-gray-900 font-display uppercase tracking-wider"
+					>
+						<a
+							href="#responsive-header"
+							class="block mt-4 lg:inline-block lg:mt-0 text-gray-900 hover:text-white mr-4"
+						>
+							Home
+						</a>
+						<a
+							href="#responsive-header"
+							class="block mt-4 lg:inline-block lg:mt-0 text-gray-900 hover:text-white mr-4"
+						>
+							How it works
+						</a>
+						<a
+							href="#responsive-header"
+							class="block mt-4 lg:inline-block lg:mt-0 text-gray-900 hover:text-white mr-4"
+						>
+							Features
+						</a>
+						<a
+							href="#responsive-header"
+							class="block mt-4 lg:inline-block lg:mt-0 text-gray-900 hover:text-white mr-4"
+						>
+							Press
+						</a>
+						<a
+							href="#responsive-header"
+							class="block mt-4 lg:inline-block lg:mt-0 text-gray-900 hover:text-white mr-4"
+						>
+							Pricing
+						</a>
+						<a
+							href="#responsive-header"
+							class="block mt-4 lg:inline-block lg:mt-0 text-gray-900 hover:text-white"
+						>
+							Contact
+						</a>
+					</div>
+				</div>
+				<div class="lg:ml-auto">
+					<a
+						href="#"
+						class="inline-block text-xs px-4 py-2 font-display uppercase leading-none border rounded hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+						>get a quote</a
+					>
+				</div>
+			</nav>
+		</header>
+	</body>
 </html>

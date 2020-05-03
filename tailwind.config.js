@@ -8,8 +8,8 @@ module.exports = {
 			xl: '1280px',
 		},
 		fontFamily: {
-			display: ['Gilroy', 'sans-serif'],
-			body: ['Graphik', 'sans-serif'],
+			display: ['Ubuntu', 'sans-serif'],
+			body: ['Ubuntu', 'sans-serif'],
 		},
 		borderWidth: {
 			default: '1px',
@@ -19,9 +19,15 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				cyan: '#9cdbff',
+				gray: {
+					'900': '#424B5A',
+					'800': '#505D68',
+					'500': '#A1AEB7',
+					'200': '#F2F5F7',
+				},
 			},
 			spacing: {
+				'15.25': '3.8125rem',
 				'96': '24rem',
 				'128': '32rem',
 			},
